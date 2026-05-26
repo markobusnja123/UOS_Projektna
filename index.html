@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moj IT status portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <h1>Moj IT status portal</h1>
+      <p>
+        To je enostaven spletni projekt, objavljen na platformi Vercel.
+        Namen projekta je prikazati osnovni postopek deploya, GitHub povezave
+        in CI/CD procesa.
+      </p>
+
+      <button onclick="showMessage()">Preveri delovanje</button>
+      <p id="message"></p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h2>GitHub</h2>
+        <p>Koda projekta je shranjena v GitHub repozitoriju.</p>
+      </div>
+
+      <div class="card">
+        <h2>Vercel</h2>
+        <p>Projekt je samodejno objavljen prek Vercel platforme.</p>
+      </div>
+
+      <div class="card">
+        <h2>CI/CD</h2>
+        <p>Ob vsakem git push ukazu se lahko izvede nov deploy.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
